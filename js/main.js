@@ -42,7 +42,7 @@ const DATA = {
           "role": "共同一作",
           "title": "Temperature-stable high-κ oxides for ultra-miniaturized capacitors",
           "journal": "Nature Electronics",
-          "detail": "Accepted",
+          "detail": "2026, Accepted",
           "roleType": "co-first"
         },
         {
@@ -95,7 +95,7 @@ const DATA = {
           "role": "通讯作者",
           "title": "晶体图神经网络模型及其应用研究进展",
           "journal": "硅酸盐学报",
-          "detail": "2026. Accepted",
+          "detail": "2026, Accepted",
           "roleType": "corresponding"
         },
         {
@@ -105,7 +105,7 @@ const DATA = {
           "role": "",
           "title": "A review of microwave dielectric ceramics: from fundamental mechanisms and property regulation to advanced preparation, applications, and data-driven discovery",
           "journal": "Journal of Advanced Ceramics",
-          "detail": "Accepted",
+          "detail": "2026, Accepted",
           "roleType": "other",
           "doi": "10.26599/JAC.2026.9221320"
         },
@@ -338,7 +338,7 @@ const DATA = {
           "role": "Corresponding Author",
           "title": "Crystal graph neural network models and their applications: a review",
           "journal": "Journal of the Chinese Ceramic Society",
-          "detail": "2026. Accepted",
+          "detail": "2026, Accepted",
           "roleType": "corresponding"
         },
         {
@@ -348,7 +348,7 @@ const DATA = {
           "role": "",
           "title": "A review of microwave dielectric ceramics: from fundamental mechanisms and property regulation to advanced preparation, applications, and data-driven discovery",
           "journal": "Journal of Advanced Ceramics",
-          "detail": "Accepted",
+          "detail": "2026, Accepted",
           "roleType": "other",
           "doi": "10.26599/JAC.2026.9221320"
         },
