@@ -92,9 +92,9 @@ body {
 .hero-social { display: flex; justify-content: center; gap: 16px; }
 .hero-social a {
   display: inline-flex; align-items: center; justify-content: center;
-  width: 36px; height: 36px; border-radius: 50%;
+  padding: 6px 18px; border-radius: 20px;
   background: var(--bg-alt); color: var(--text-light);
-  text-decoration: none; font-size: 0.9rem; font-weight: 600;
+  text-decoration: none; font-size: 0.82rem; font-weight: 600;
   transition: all 0.2s;
 }
 .hero-social a:hover { background: var(--primary); color: var(--white); }
