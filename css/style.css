@@ -1,0 +1,238 @@
+/* ========================================
+   Academic Personal Homepage - Style
+   Clean, minimal, materials science scholar
+   ======================================== */
+
+:root {
+  --primary: #1a3a5c;
+  --primary-light: #2c5f8a;
+  --accent: #c9a84c;
+  --accent-light: #e8d5a3;
+  --bg: #fafafa;
+  --bg-alt: #f0f2f5;
+  --text: #2d2d2d;
+  --text-light: #5a5a5a;
+  --text-muted: #888;
+  --border: #e0e0e0;
+  --white: #ffffff;
+  --shadow: 0 1px 3px rgba(0,0,0,0.08);
+  --shadow-md: 0 4px 12px rgba(0,0,0,0.1);
+  --radius: 6px;
+  --max-width: 960px;
+  --nav-height: 60px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { scroll-behavior: smooth; scroll-padding-top: var(--nav-height); }
+
+body {
+  font-family: "Segoe UI", "Helvetica Neue", Arial, "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--text);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ===== Navigation ===== */
+.nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+  height: var(--nav-height);
+  background: rgba(255,255,255,0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border);
+  display: flex; align-items: center;
+}
+
+.nav-inner {
+  max-width: var(--max-width); width: 100%;
+  margin: 0 auto; padding: 0 24px;
+  display: flex; justify-content: space-between; align-items: center;
+}
+
+.nav-name {
+  font-size: 1.15rem; font-weight: 700; color: var(--primary);
+  text-decoration: none; letter-spacing: 0.02em;
+}
+
+.nav-links { display: flex; gap: 28px; align-items: center; list-style: none; }
+.nav-links a {
+  font-size: 0.9rem; color: var(--text-light); text-decoration: none;
+  font-weight: 500; transition: color 0.2s;
+}
+.nav-links a:hover { color: var(--primary); }
+
+.lang-toggle {
+  background: none; border: 1.5px solid var(--primary);
+  color: var(--primary); font-size: 0.78rem; font-weight: 600;
+  padding: 4px 12px; border-radius: 20px; cursor: pointer;
+  transition: all 0.2s; letter-spacing: 0.04em;
+}
+.lang-toggle:hover { background: var(--primary); color: var(--white); }
+
+/* ===== Hero ===== */
+.hero {
+  padding: calc(var(--nav-height) + 60px) 24px 50px;
+  text-align: center; background: var(--white);
+  border-bottom: 1px solid var(--border);
+}
+
+.hero-photo {
+  width: 150px; height: 150px; border-radius: 50%;
+  object-fit: cover; border: 3px solid var(--border);
+  margin-bottom: 20px; box-shadow: var(--shadow-md);
+}
+
+.hero-name { font-size: 2rem; font-weight: 700; color: var(--primary); margin-bottom: 6px; letter-spacing: 0.02em; }
+.hero-title { font-size: 1.05rem; color: var(--text-light); margin-bottom: 4px; }
+.hero-affiliation { font-size: 0.95rem; color: var(--text-muted); margin-bottom: 8px; }
+.hero-update { font-size: 0.78rem; color: var(--accent); margin-bottom: 18px; font-style: italic; }
+
+.hero-social { display: flex; justify-content: center; gap: 16px; }
+.hero-social a {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 36px; height: 36px; border-radius: 50%;
+  background: var(--bg-alt); color: var(--text-light);
+  text-decoration: none; font-size: 0.9rem; font-weight: 600;
+  transition: all 0.2s;
+}
+.hero-social a:hover { background: var(--primary); color: var(--white); }
+
+/* ===== Section Common ===== */
+.section {
+  max-width: var(--max-width); margin: 0 auto;
+  padding: 56px 24px;
+}
+
+.section-alt { background: var(--bg-alt); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+.section-alt .section { padding-top: 56px; padding-bottom: 56px; }
+
+.section-title {
+  font-size: 1.35rem; font-weight: 700; color: var(--primary);
+  margin-bottom: 28px; padding-bottom: 10px;
+  border-bottom: 2px solid var(--accent);
+  display: inline-block; letter-spacing: 0.03em;
+}
+
+/* ===== About ===== */
+.about-text { color: var(--text-light); max-width: var(--max-width); text-align: justify; }
+.about-text p { margin-bottom: 12px; }
+
+.about-full {
+  margin-bottom: 12px;
+  text-align: justify;
+}
+
+/* ===== Research Interests ===== */
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.research-card {
+  background: var(--white); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 20px 22px;
+  transition: all 0.2s; text-align: center;
+}
+.research-card:hover {
+  border-color: var(--primary-light);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.research-card h3 {
+  font-size: 0.95rem; font-weight: 700; color: var(--primary);
+  margin-bottom: 6px;
+}
+.research-card p {
+  font-size: 0.85rem; color: var(--text-muted); line-height: 1.5;
+}
+
+/* ===== Publications ===== */
+.pub-year-filter {
+  display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px;
+}
+.pub-year-btn {
+  background: var(--white); border: 1.5px solid var(--border);
+  color: var(--text-light); font-size: 0.82rem; font-weight: 600;
+  padding: 5px 14px; border-radius: 20px; cursor: pointer;
+  transition: all 0.2s;
+}
+.pub-year-btn:hover, .pub-year-btn.active {
+  background: var(--primary); color: var(--white); border-color: var(--primary);
+}
+
+.pub-list { list-style: none; }
+
+.pub-item {
+  padding: 16px 0; border-bottom: 1px solid var(--border);
+  transition: background 0.2s;
+}
+.pub-item:last-child { border-bottom: none; }
+.pub-item.hidden { display: none; }
+
+.pub-year-tag {
+  display: inline-block; font-size: 0.72rem; font-weight: 700;
+  background: var(--primary); color: var(--white);
+  padding: 2px 8px; border-radius: 10px; margin-bottom: 6px;
+}
+
+.pub-authors { font-size: 0.9rem; color: var(--text); line-height: 1.6; }
+.pub-authors .me { font-weight: 700; color: var(--primary); text-decoration: underline; text-underline-offset: 3px; }
+.pub-authors .role { font-size: 0.75rem; color: var(--accent); font-weight: 600; margin-left: 2px; }
+
+.pub-title { font-size: 0.92rem; font-weight: 600; color: var(--text); margin: 4px 0; }
+.pub-doi-link { color: var(--text); text-decoration: none; border-bottom: 1px dotted var(--text-muted); transition: all 0.2s; }
+.pub-doi-link:hover { color: var(--primary); border-bottom-color: var(--primary); }
+.pub-journal { font-size: 0.82rem; font-style: italic; color: var(--text-muted); }
+.pub-detail { font-size: 0.8rem; color: var(--text-muted); }
+
+/* ===== Patents ===== */
+.patent-list { list-style: none; }
+.patent-item {
+  padding: 14px 0; border-bottom: 1px solid var(--border);
+  font-size: 0.92rem; color: var(--text-light); line-height: 1.6;
+}
+.patent-item:last-child { border-bottom: none; }
+.patent-status {
+  display: inline-block; font-size: 0.72rem; font-weight: 600;
+  padding: 2px 8px; border-radius: 10px; margin-left: 8px;
+}
+.patent-status.pending { background: #fff3cd; color: #856404; }
+.patent-status.unauthorized { background: #f8d7da; color: #721c24; }
+.patent-title { font-size: 0.94rem; font-weight: 500; color: var(--text); margin-bottom: 2px; }
+.patent-inventor { font-size: 0.82rem; color: var(--text-muted); margin-top: 2px; }
+.patent-detail { font-size: 0.82rem; color: var(--text-muted); margin-top: 1px; }
+
+/* ===== Grants ===== */
+.grant-item {
+  padding: 14px 0; font-size: 0.92rem; color: var(--text-light);
+  border-bottom: 1px solid var(--border);
+}
+.grant-item:last-child { border-bottom: none; }
+
+/* ===== Footer ===== */
+.footer {
+  text-align: center; padding: 36px 24px;
+  font-size: 0.82rem; color: var(--text-muted);
+  border-top: 1px solid var(--border);
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .nav-links { gap: 16px; }
+  .nav-links a { font-size: 0.8rem; }
+  .hero-name { font-size: 1.5rem; }
+  .hero-photo { width: 120px; height: 120px; }
+  .section { padding: 40px 16px; }
+  .research-grid { grid-template-columns: 1fr; }
+  .pub-year-filter { gap: 6px; }
+}
+
+@media (max-width: 480px) {
+  .nav-links { gap: 12px; }
+  .nav-links a { font-size: 0.75rem; }
+  .hero-name { font-size: 1.35rem; }
+}
