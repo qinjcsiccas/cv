@@ -285,7 +285,7 @@ const DATA = {
           "role": "Co-first Author",
           "title": "Temperature-stable high-κ oxides for ultra-miniaturized capacitors",
           "journal": "Nature Electronics",
-          "detail": "Accepted",
+          "detail": "2026, Accepted",
           "roleType": "co-first"
         },
         {
