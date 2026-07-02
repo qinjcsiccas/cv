@@ -86,7 +86,8 @@ const DATA = {
           "title": "Physics-informed machine learning for lifetime prediction of multi-layer ceramic capacitors",
           "journal": "IEEE Transactions on Components, Packaging and Manufacturing Technology",
           "detail": "2026, Early Access",
-          "roleType": "other"
+          "roleType": "other",
+          "doi": "10.1109/TCPMT.2026.3661614"
         },
         {
           "year": 2026,
@@ -262,7 +263,7 @@ const DATA = {
     },
     about: {
       heading: "About",
-      full: "Jincheng Qin is a Postdoctoral Fellow at the Shanghai Institute of Ceramics, Chinese Academy of Sciences. He received his B.E. from the Powder Metallurgy Research Institute, Central South University in 2018, and his Ph.D. from the University of Chinese Academy of Sciences in 2023. His research focuses on the intelligent study of inorganic functional materials, with emphasis on machine learning and large language model-assisted property prediction and structural design. He has published 15 papers as first/corresponding author in journals including Nat. Electron., Mater. Sci. Eng. R, npj Comput. Mater., and MGE Advances. He leads a project funded by the China Postdoctoral Science Foundation. He serves as a Youth Editorial Board member for MGE Advances and AI for Science, and has delivered invited talks at international conferences such as ICMAT 2025, Singapore.",
+      full: "Jincheng Qin is a Postdoctoral Fellow at the Shanghai Institute of Ceramics, Chinese Academy of Sciences. He received his B.E. from the Powder Metallurgy Research Institute, Central South University in 2018, and his Ph.D. from the University of Chinese Academy of Sciences in 2023. His research focuses on the intelligent study of inorganic functional materials, with emphasis on machine learning and large language model-assisted performance prediction and structural design. He has published 15 papers as first/corresponding author in journals including Nat. Electron., Mater. Sci. Eng. R, npj Comput. Mater., and MGE Advances. He leads a project funded by the China Postdoctoral Science Foundation. He serves as a Youth Editorial Board member for MGE Advances and AI for Science, and has delivered invited talks at international conferences such as ICMAT 2025, Singapore.",
       btn_more: "Read More ▼",
       btn_less: "Show Less ▲"
     },
@@ -329,7 +330,8 @@ const DATA = {
           "title": "Physics-informed machine learning for lifetime prediction of multi-layer ceramic capacitors",
           "journal": "IEEE Transactions on Components, Packaging and Manufacturing Technology",
           "detail": "2026, Early Access",
-          "roleType": "other"
+          "roleType": "other",
+          "doi": "10.1109/TCPMT.2026.3661614"
         },
         {
           "year": 2026,
