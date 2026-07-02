@@ -222,17 +222,24 @@ body {
 
 /* ===== Responsive ===== */
 @media (max-width: 768px) {
-  .nav-links { gap: 16px; }
+  .nav-links { gap: 12px; }
   .nav-links a { font-size: 0.8rem; }
+  .lang-toggle { font-size: 0.72rem; padding: 3px 10px; }
   .hero-name { font-size: 1.5rem; }
   .hero-photo { width: 120px; height: 120px; }
+  .hero-title { font-size: 0.95rem; }
+  .hero-affiliation { font-size: 0.85rem; }
   .section { padding: 40px 16px; }
   .research-grid { grid-template-columns: 1fr; }
   .pub-year-filter { gap: 6px; }
 }
 
 @media (max-width: 480px) {
-  .nav-links { gap: 12px; }
-  .nav-links a { font-size: 0.75rem; }
+  .nav-links { gap: 8px; }
+  .nav-links a { font-size: 0.7rem; }
+  .lang-toggle { font-size: 0.68rem; padding: 2px 8px; }
   .hero-name { font-size: 1.35rem; }
+  .hero-title { font-size: 0.9rem; }
+  .hero-affiliation { font-size: 0.78rem; }
+  .hero-social a { padding: 5px 12px; font-size: 0.75rem; }
 }
