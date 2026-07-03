@@ -481,7 +481,7 @@ const DATA = {
       heading: "Patents",
       items: [
         { title: "A dielectric material for X8R-type ceramic capacitors and a preparation method thereof (In Chinese)", year: 2020, number: "CN114685161A", inventor: "Yan Gu, Faqiang Zhang, Zhifu Liu, Qi Ouyang, Jincheng Qin", detail: "Application No.: CN114685161A | Filed: 2020-12-28", status: "Unauthorized", statusClass: "unauthorized" },
-        { title: "ML-based remaining life prediction method for MLCC", year: 2025, number: "CN120068408A", inventor: "Zhifu Liu, Tianyu Jiang, Faqiang Zhang, Jincheng Qin, Mingsheng Ma", detail: "Application No.: CN120068408A | Filed: 2025-01-23", status: "Under Review", statusClass: "pending" }
+        { title: "A method for predicting remaining lifetime of MLCC based on machine learning (In Chinese)", year: 2025, number: "CN120068408A", inventor: "Zhifu Liu, Tianyu Jiang, Faqiang Zhang, Jincheng Qin, Mingsheng Ma", detail: "Application No.: CN120068408A | Filed: 2025-01-23", status: "Under Review", statusClass: "pending" }
       ]
     },
     grants: {
