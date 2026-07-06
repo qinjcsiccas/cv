@@ -119,7 +119,7 @@ const DATA = {
           "journal": "MGE Advances",
           "detail": "2025, 3(2): e70005",
           "roleType": "first-corresponding",
-          "doi": "10.1002/mge2.70005"
+          "doi": "10.1002/mgea.70005"
         },
         {
           "year": 2025,
@@ -141,7 +141,7 @@ const DATA = {
           "journal": "APL Machine Learning",
           "detail": "2025, 3: 026105",
           "roleType": "corresponding",
-          "doi": "10.1063/5.0236105"
+          "doi": "10.1063/5.0262717"
         },
         {
           "year": 2025,
@@ -174,7 +174,7 @@ const DATA = {
           "journal": "npj Computational Materials",
           "detail": "2023, 9: 132",
           "roleType": "first",
-          "doi": "10.1038/s41524-023-01062-x"
+          "doi": "10.1038/s41524-023-01093-6"
         },
         {
           "year": 2023,
@@ -196,7 +196,7 @@ const DATA = {
           "journal": "ACS Sustainable Chemistry & Engineering",
           "detail": "2022, 10(4): 1554-1564",
           "roleType": "first",
-          "doi": "10.1021/acssuschemeng.1c06544"
+          "doi": "10.1021/acssuschemeng.1c06983"
         },
         {
           "year": 2022,
@@ -207,7 +207,7 @@ const DATA = {
           "journal": "Ceramics International",
           "detail": "2022, 48(10): 14371-14377",
           "roleType": "first",
-          "doi": "10.1016/j.ceramint.2022.01.318"
+          "doi": "10.1016/j.ceramint.2022.01.328"
         },
         {
           "year": 2021,
@@ -218,7 +218,7 @@ const DATA = {
           "journal": "Journal of Materiomics",
           "detail": "2021, 7(6): 1284-1293",
           "roleType": "first",
-          "doi": "10.1016/j.jmat.2021.05.006"
+          "doi": "10.1016/j.jmat.2021.02.012"
         },
         {
           "year": 2021,
@@ -229,7 +229,7 @@ const DATA = {
           "journal": "ACS Applied Materials & Interfaces",
           "detail": "2021, 13(15): 17817-17826",
           "roleType": "first",
-          "doi": "10.1021/acsami.1c02448"
+          "doi": "10.1021/acsami.1c01909"
         }
       ]
     },
@@ -363,7 +363,7 @@ const DATA = {
           "journal": "MGE Advances",
           "detail": "2025, 3(2): e70005",
           "roleType": "first-corresponding",
-          "doi": "10.1002/mge2.70005"
+          "doi": "10.1002/mgea.70005"
         },
         {
           "year": 2025,
@@ -385,7 +385,7 @@ const DATA = {
           "journal": "APL Machine Learning",
           "detail": "2025, 3: 026105",
           "roleType": "corresponding",
-          "doi": "10.1063/5.0236105"
+          "doi": "10.1063/5.0262717"
         },
         {
           "year": 2025,
@@ -418,7 +418,7 @@ const DATA = {
           "journal": "npj Computational Materials",
           "detail": "2023, 9: 132",
           "roleType": "first",
-          "doi": "10.1038/s41524-023-01062-x"
+          "doi": "10.1038/s41524-023-01093-6"
         },
         {
           "year": 2023,
@@ -440,7 +440,7 @@ const DATA = {
           "journal": "ACS Sustainable Chemistry & Engineering",
           "detail": "2022, 10(4): 1554-1564",
           "roleType": "first",
-          "doi": "10.1021/acssuschemeng.1c06544"
+          "doi": "10.1021/acssuschemeng.1c06983"
         },
         {
           "year": 2022,
@@ -451,7 +451,7 @@ const DATA = {
           "journal": "Ceramics International",
           "detail": "2022, 48(10): 14371-14377",
           "roleType": "first",
-          "doi": "10.1016/j.ceramint.2022.01.318"
+          "doi": "10.1016/j.ceramint.2022.01.328"
         },
         {
           "year": 2021,
@@ -462,7 +462,7 @@ const DATA = {
           "journal": "Journal of Materiomics",
           "detail": "2021, 7(6): 1284-1293",
           "roleType": "first",
-          "doi": "10.1016/j.jmat.2021.05.006"
+          "doi": "10.1016/j.jmat.2021.02.012"
         },
         {
           "year": 2021,
@@ -473,7 +473,7 @@ const DATA = {
           "journal": "ACS Applied Materials & Interfaces",
           "detail": "2021, 13(15): 17817-17826",
           "roleType": "first",
-          "doi": "10.1021/acsami.1c02448"
+          "doi": "10.1021/acsami.1c01909"
         }
       ]
     },
