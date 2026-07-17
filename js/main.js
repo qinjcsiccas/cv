@@ -116,7 +116,7 @@ const DATA = {
           "me": "Jincheng Qin",
           "role": "第一作者, 通讯作者",
           "title": "Multiobjective optimization of dielectric, thermal and mechanical properties of inorganic glasses utilizing explainable machine learning and genetic algorithm",
-          "journal": "MGE Advances",
+          "journal": "Materials Genome Engineering Advances",
           "detail": "2025, 3(2): e70005",
           "roleType": "first-corresponding",
           "doi": "10.1002/mgea.70005"
