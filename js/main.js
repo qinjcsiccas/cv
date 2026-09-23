@@ -551,7 +551,6 @@ function renderResearch() {
   grid.innerHTML = d.items.map(item => `
     <div class="research-card">
       <h3>${item.title}</h3>
-      <p>${item.desc}</p>
     </div>
   `).join("");
 }
