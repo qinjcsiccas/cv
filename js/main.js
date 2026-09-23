@@ -25,7 +25,11 @@ const DATA = {
     },
     research: {
       heading: "研究方向",
-      items: []
+      items: [
+        { title: "无机介质材料构效关系研究" },
+        { title: "机器学习辅助材料性能预测" },
+        { title: "大语言模型赋能新材料创制" }
+      ]
     },
     publications: {
       heading: "论文发表",
@@ -265,7 +269,11 @@ const DATA = {
     },
     research: {
       heading: "Research Interests",
-      items: []
+      items: [
+        { title: "Structure-Property Relationships of Inorganic Dielectric Materials" },
+        { title: "Machine Learning-Assisted Materials Property Prediction" },
+        { title: "Large Language Model-Empowered New Materials Discovery" }
+      ]
     },
     publications: {
       heading: "Publications",
