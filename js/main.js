@@ -25,11 +25,7 @@ const DATA = {
     },
     research: {
       heading: "研究方向",
-      items: [
-        { title: "无机介质材料构效关系研究", desc: "理解和建模组成、晶体结构、制备过程与介电性能之间的关系。" },
-        { title: "机器学习辅助材料性能预测", desc: "利用数据驱动方法预测和优化无机材料的介电及相关功能性能。" },
-        { title: "大语言模型赋能新材料创制", desc: "发展科学智能体、文献挖掘、材料数据库、逆向设计和人工智能辅助材料发现工作流。" }
-      ]
+      items: []
     },
     publications: {
       heading: "论文发表",
@@ -269,11 +265,7 @@ const DATA = {
     },
     research: {
       heading: "Research Interests",
-      items: [
-        { title: "Structure-Property Relationships of Inorganic Dielectric Materials", desc: "Understanding relationships among composition, crystal structure, processing, and dielectric performance." },
-        { title: "Machine Learning-Assisted Materials Property Prediction", desc: "Data-driven prediction and optimization of dielectric and related functional properties of inorganic materials." },
-        { title: "Large Language Model-Empowered New Materials Discovery", desc: "Scientific AI agents, literature mining, materials databases, inverse design, and AI-assisted materials discovery workflows." }
-      ]
+      items: []
     },
     publications: {
       heading: "Publications",
