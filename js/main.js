@@ -42,7 +42,7 @@ const DATA = {
           "role": "共同一作",
           "title": "Temperature-stable high-κ oxides for miniaturized capacitors",
           "journal": "Nature Electronics",
-          "detail": "2026, Published online 6 October",
+          "detail": "2026, Online",
           "doi": "10.1038/s41928-026-01721-1",
           "roleType": "co-first"
         },
@@ -97,7 +97,7 @@ const DATA = {
           "role": "通讯作者",
           "title": "晶体图神经网络模型及其应用研究进展",
           "journal": "硅酸盐学报",
-          "detail": "2026, Published online 6 October",
+          "detail": "2026, In Press",
           "roleType": "corresponding"
         },
         {
@@ -107,7 +107,7 @@ const DATA = {
           "role": "",
           "title": "A review of microwave dielectric ceramics: from fundamental mechanisms and property regulation to advanced preparation, applications, and data-driven discovery",
           "journal": "Journal of Advanced Ceramics",
-          "detail": "2026, Published online 6 October",
+          "detail": "2026, In Press",
           "roleType": "other",
           "doi": "10.26599/JAC.2026.9221320"
         },
@@ -287,7 +287,7 @@ const DATA = {
           "role": "Co-first Author",
           "title": "Temperature-stable high-κ oxides for miniaturized capacitors",
           "journal": "Nature Electronics",
-          "detail": "2026, Published online 6 October",
+          "detail": "2026, Online",
           "doi": "10.1038/s41928-026-01721-1",
           "roleType": "co-first"
         },
@@ -342,7 +342,7 @@ const DATA = {
           "role": "Corresponding Author",
           "title": "Crystal graph neural network models and their applications: a review",
           "journal": "Journal of the Chinese Ceramic Society",
-          "detail": "2026, Published online 6 October",
+          "detail": "2026, In Press",
           "roleType": "corresponding"
         },
         {
@@ -352,7 +352,7 @@ const DATA = {
           "role": "",
           "title": "A review of microwave dielectric ceramics: from fundamental mechanisms and property regulation to advanced preparation, applications, and data-driven discovery",
           "journal": "Journal of Advanced Ceramics",
-          "detail": "2026, Published online 6 October",
+          "detail": "2026, In Press",
           "roleType": "other",
           "doi": "10.26599/JAC.2026.9221320"
         },
