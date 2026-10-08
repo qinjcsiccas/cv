@@ -105,9 +105,9 @@ const DATA = {
           "authors": "Hongyu Yang<sup>*</sup>, Chuntao Ou, Huan Liu, Lei Li<sup>*</sup>, Hua-ao Sun, Guangran Lin, Wanghuai Zhu, Feng Shi<sup>*</sup>, Weijia Guo<sup>*</sup>, Zhenxing Yue<sup>*</sup>, Ying Tang, Jie Li<sup>*</sup>, Huaicheng Xiang, Weishuang Fang, Huixing Lin, Junfeng Yang, Liang Fang<sup>*</sup>, Muhammad Adnan Munir, Jing Guo<sup>*</sup>, Kaixin Song<sup>*</sup>, Jincheng Qin, Zhifu Liu<sup>*</sup>, Zhichao Hu, Enzhu Li<sup>*</sup>, Hong Wang",
           "me": "Jincheng Qin",
           "role": "",
-          "title": "A review of microwave dielectric ceramics: from fundamental mechanisms and property regulation to advanced preparation, applications, and data-driven discovery",
+          "title": "A review of microwave dielectric ceramics: From fundamental mechanisms and property regulation to advanced preparation, applications, and data-driven discovery",
           "journal": "Journal of Advanced Ceramics",
-          "detail": "2026, In Press",
+          "detail": "2026, 15(8): 9221320",
           "roleType": "other",
           "doi": "10.26599/JAC.2026.9221320"
         },
@@ -350,9 +350,9 @@ const DATA = {
           "authors": "Hongyu Yang<sup>*</sup>, Chuntao Ou, Huan Liu, Lei Li<sup>*</sup>, Hua-ao Sun, Guangran Lin, Wanghuai Zhu, Feng Shi<sup>*</sup>, Weijia Guo<sup>*</sup>, Zhenxing Yue<sup>*</sup>, Ying Tang, Jie Li<sup>*</sup>, Huaicheng Xiang, Weishuang Fang, Huixing Lin, Junfeng Yang, Liang Fang<sup>*</sup>, Muhammad Adnan Munir, Jing Guo<sup>*</sup>, Kaixin Song<sup>*</sup>, Jincheng Qin, Zhifu Liu<sup>*</sup>, Zhichao Hu, Enzhu Li<sup>*</sup>, Hong Wang",
           "me": "Jincheng Qin",
           "role": "",
-          "title": "A review of microwave dielectric ceramics: from fundamental mechanisms and property regulation to advanced preparation, applications, and data-driven discovery",
+          "title": "A review of microwave dielectric ceramics: From fundamental mechanisms and property regulation to advanced preparation, applications, and data-driven discovery",
           "journal": "Journal of Advanced Ceramics",
-          "detail": "2026, In Press",
+          "detail": "2026, 15(8): 9221320",
           "roleType": "other",
           "doi": "10.26599/JAC.2026.9221320"
         },
