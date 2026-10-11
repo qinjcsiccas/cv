@@ -10,18 +10,29 @@ const DATA = {
       research: "研究方向",
       publications: "论文发表",
       patents: "专利",
-      grants: "项目"
+      grants: "项目",
+      projects: "研究项目"
     },
     hero: {
       name: "秦锦成",
-      title: "博士后",
+      title: "材料科学研究者",
       affiliation: "中国科学院上海硅酸盐研究所"
     },
     about: {
       heading: "个人简介",
-      full: "秦锦成，中国科学院上海硅酸盐研究所博士后。2018年于中南大学粉末冶金研究院获工学学士学位，2023年于中国科学院大学获工学博士学位。主要研究方向为无机功能材料智能化研究，聚焦机器学习与大语言模型辅助材料性能预测和结构设计。以第一/通讯作者在 Nat. Electron.、Mater. Sci. Eng. R、npj Comput. Mater.、MGE Advances 等期刊发表论文15篇，主持中国博士后科学基金国家资助项目。担任 MGE Advances、AI for Science 期刊青年编委，多次在国际学术会议（如ICMAT 2025, Singapore）做邀请报告。",
+      full: "秦锦成，中国科学院上海硅酸盐研究所材料科学研究者。2018年于中南大学粉末冶金研究院获工学学士学位，2023年于中国科学院大学获工学博士学位。研究兴趣涵盖 AI for Materials、材料信息学、机器学习辅助材料性能预测、材料数据库，以及大语言模型驱动的科研智能体与材料设计。担任 MGE Advances、AI for Science 期刊青年编委。",
       btn_more: "展开更多 ▼",
       btn_less: "收起 ▲"
+    },
+    projects: {
+      kicker: "代表性工作",
+      heading: "代表性研究项目",
+      allLink: "查看全部项目",
+      items: [
+        { tag: "科学智能体", title: "DiCerAgent：介电陶瓷多智能体研究平台", desc: "整合知识检索、性能预测、逆向设计与科学推理，探索大语言模型驱动的介电陶瓷研究工作流。", link: "projects/diceragent.html", linkText: "项目详情" },
+        { tag: "机器学习", title: "材料性能预测与构效关系", desc: "结合材料描述符、机器学习与可解释分析，研究组成、结构特征与材料性能之间的关联。", link: "#publications", linkText: "相关论文" },
+        { tag: "计算材料设计", title: "数据驱动的材料筛选与设计", desc: "通过数据驱动建模与计算筛选，支持候选材料评估、性能优化和后续实验验证。", link: "projects/index.html#materials-design", linkText: "研究方向" }
+      ]
     },
     research: {
       heading: "研究方向",
@@ -255,18 +266,29 @@ const DATA = {
       research: "Research",
       publications: "Publications",
       patents: "Patents",
-      grants: "Projects"
+      grants: "Projects",
+      projects: "Projects"
     },
     hero: {
       name: "Jincheng Qin",
-      title: "Postdoctoral Fellow",
+      title: "Materials Scientist",
       affiliation: "Shanghai Institute of Ceramics, Chinese Academy of Sciences"
     },
     about: {
       heading: "About",
-      full: "Jincheng Qin is a Postdoctoral Fellow at the Shanghai Institute of Ceramics, Chinese Academy of Sciences. He received his B.E. from the Powder Metallurgy Research Institute, Central South University in 2018, and his Ph.D. from the University of Chinese Academy of Sciences in 2023. His research focuses on the intelligent study of inorganic functional materials, with emphasis on machine learning and large language model-assisted performance prediction and structural design. He has published 15 papers as first/corresponding author in journals including Nat. Electron., Mater. Sci. Eng. R, npj Comput. Mater., and MGE Advances. He leads a project funded by the China Postdoctoral Science Foundation. He serves as a Youth Editorial Board member for MGE Advances and AI for Science, and has delivered invited talks at international conferences such as ICMAT 2025, Singapore.",
+      full: "Jincheng Qin is a materials scientist at the Shanghai Institute of Ceramics, Chinese Academy of Sciences. He received his B.E. from the Powder Metallurgy Research Institute, Central South University in 2018 and his Ph.D. from the University of Chinese Academy of Sciences in 2023. His research interests include AI for Materials, materials informatics, machine learning-assisted property prediction, materials databases, and large language model-driven scientific agents and materials design. He serves on the youth editorial boards of MGE Advances and AI for Science.",
       btn_more: "Read More ▼",
       btn_less: "Show Less ▲"
+    },
+    projects: {
+      kicker: "SELECTED WORK",
+      heading: "Selected Research Projects",
+      allLink: "All projects",
+      items: [
+        { tag: "Scientific AI Agents", title: "DiCerAgent: A Multi-Agent Research Platform for Dielectric Ceramics", desc: "Connects knowledge retrieval, property prediction, inverse design, and scientific reasoning in an LLM-driven research workflow.", link: "projects/diceragent.html", linkText: "Project details" },
+        { tag: "Machine Learning", title: "Materials Property Prediction and Structure–Property Relationships", desc: "Combines materials descriptors, machine learning, and interpretable analysis to study links between composition, structural features, and performance.", link: "#publications", linkText: "Related publications" },
+        { tag: "Computational Design", title: "Data-Driven Materials Screening and Design", desc: "Uses data-driven models and computational screening to support candidate evaluation, property optimization, and follow-up experimental validation.", link: "projects/index.html#materials-design", linkText: "Research overview" }
+      ]
     },
     research: {
       heading: "Research Interests",
@@ -512,6 +534,7 @@ function renderAll() {
   renderNav();
   renderHero();
   renderAbout();
+  renderProjects();
   renderResearch();
   renderPublications();
   renderPatents();
@@ -524,6 +547,7 @@ function renderNav() {
   $("nav-name").textContent = DATA[currentLang].hero.name;
   $("nav-about").textContent = d.about;
   $("nav-research").textContent = d.research;
+  $("nav-projects").textContent = d.projects;
   $("nav-pub").textContent = d.publications;
   $("nav-patents").textContent = d.patents;
   $("nav-grants").textContent = d.grants;
@@ -536,6 +560,9 @@ function renderHero() {
   $("hero-name").textContent = d.name;
   $("hero-title").textContent = d.title;
   $("hero-affiliation").textContent = d.affiliation;
+  $("hero-tagline").textContent = currentLang === "zh" ? "AI for Materials · 材料智能研究" : "AI for Materials";
+  $("hero-projects-cta").textContent = currentLang === "zh" ? "代表性研究" : "Selected Projects";
+  $("hero-pubs-cta").textContent = currentLang === "zh" ? "论文发表" : "Publications";
 }
 
 /* About */
@@ -543,6 +570,22 @@ function renderAbout() {
   const d = DATA[currentLang].about;
   $("about-heading").textContent = d.heading;
   $("about-full").textContent = d.full;
+}
+
+/* Selected projects */
+function renderProjects() {
+  const d = DATA[currentLang].projects;
+  $("projects-kicker").textContent = d.kicker;
+  $("projects-heading").textContent = d.heading;
+  $("all-projects-link").innerHTML = d.allLink + ' <span aria-hidden="true">↗</span>';
+  $("project-grid").innerHTML = d.items.map((item, i) => `
+    <article class="project-card project-card-${i + 1}">
+      <div class="project-card-top"><span class="project-number">0${i + 1}</span><span class="project-tag">${item.tag}</span></div>
+      <h3>${item.title}</h3>
+      <p>${item.desc}</p>
+      <a class="project-link" href="${item.link}">${item.linkText} <span aria-hidden="true">↗</span></a>
+    </article>
+  `).join("");
 }
 
 /* Research */
@@ -561,6 +604,9 @@ function renderResearch() {
 function renderPublications() {
   const d = DATA[currentLang].publications;
   $("pub-heading").textContent = d.heading;
+  $("pub-search-label").textContent = currentLang === "zh" ? "搜索论文" : "Search publications";
+  $("pub-search").placeholder = currentLang === "zh" ? "输入标题、期刊或作者关键词" : "Search title, journal, or author";
+  $("pub-search").value = "";
 
   // Year filter
   const years = [...new Set(d.papers.map(p => p.year))].sort((a, b) => b - a);
@@ -595,14 +641,21 @@ function renderPublications() {
       filterDiv.querySelectorAll(".pub-year-btn").forEach(b => b.classList.remove("active"));
       this.classList.add("active");
       const year = this.dataset.year;
-      list.querySelectorAll(".pub-item").forEach(item => {
-        if (year === "all" || item.dataset.year === year) {
-          item.classList.remove("hidden");
-        } else {
-          item.classList.add("hidden");
-        }
-      });
+      applyPublicationFilters();
     });
+  });
+  $("pub-search").oninput = applyPublicationFilters;
+  applyPublicationFilters();
+}
+
+function applyPublicationFilters() {
+  const active = document.querySelector(".pub-year-btn.active");
+  const year = active ? active.dataset.year : "all";
+  const query = $("pub-search").value.trim().toLowerCase();
+  document.querySelectorAll("#pub-list .pub-item").forEach(item => {
+    const yearMatch = year === "all" || item.dataset.year === year;
+    const textMatch = !query || item.textContent.toLowerCase().includes(query);
+    item.classList.toggle("hidden", !(yearMatch && textMatch));
   });
 }
 
