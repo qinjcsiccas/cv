@@ -549,8 +549,6 @@ function renderNav() {
   $("nav-research").textContent = d.research;
   $("nav-projects").textContent = d.projects;
   $("nav-pub").textContent = d.publications;
-  $("nav-patents").textContent = d.patents;
-  $("nav-grants").textContent = d.grants;
   $("lang-btn").textContent = currentLang === "zh" ? "EN" : "中文";
 }
 
