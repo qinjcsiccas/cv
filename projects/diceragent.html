@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DiCerAgent | Jincheng Qin</title>
+  <meta name="description" content="DiCerAgent is an LLM-driven multi-agent research platform for dielectric ceramics, connecting knowledge retrieval, property prediction, inverse design, and scientific reasoning.">
+  <meta name="author" content="Jincheng Qin">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://qinjcsiccas.github.io/cv/projects/diceragent.html">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .detail-nav{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:18px 24px;border-bottom:1px solid var(--border);background:#fff}
+    .detail-nav a{color:var(--primary);text-decoration:none;font-weight:650}
+    .detail-nav button{border:1px solid var(--border);background:#fff;border-radius:6px;padding:7px 12px;color:var(--primary);cursor:pointer}
+    .detail-hero{padding:72px 24px 50px;background:radial-gradient(ellipse at 50% 0%,rgba(44,95,138,.08),transparent 58%),#fff;border-bottom:1px solid var(--border)}
+    .detail-hero-inner,.detail-main{max-width:980px;margin:0 auto}
+    .detail-kicker{font-size:.74rem;letter-spacing:.16em;font-weight:750;color:var(--primary-light);margin-bottom:12px}
+    .detail-hero h1{font-size:clamp(2rem,4vw,2.8rem);line-height:1.2;color:var(--primary);max-width:850px;margin-bottom:18px}
+    .detail-hero .lead{max-width:800px;color:var(--text-light);font-size:1.06rem;line-height:1.9}
+    .detail-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
+    .detail-actions a{display:inline-flex;padding:10px 16px;border-radius:6px;border:1px solid var(--border);text-decoration:none;color:var(--primary);font-weight:650}
+    .detail-actions a.primary{background:var(--primary);border-color:var(--primary);color:#fff}
+    .detail-main{padding:44px 24px 68px}
+    .detail-main section{margin-bottom:38px}
+    .detail-main h2{color:var(--primary);font-size:1.35rem;margin-bottom:14px}
+    .detail-main p,.detail-main li{color:var(--text-light);font-size:.96rem;line-height:1.9}
+    .agent-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:18px}
+    .agent-card{border:1px solid var(--border);border-radius:8px;padding:18px;background:#fff}
+    .agent-card h3{color:var(--primary);font-size:.98rem;margin-bottom:6px}
+    .agent-card p{font-size:.86rem;line-height:1.75}
+    .detail-note{background:#f3f6f8;border-left:3px solid var(--primary-light);padding:16px 18px;border-radius:0 6px 6px 0}
+    .detail-footer{text-align:center;padding:28px 16px;color:var(--text-muted);font-size:.8rem;border-top:1px solid var(--border)}
+    [hidden]{display:none!important}
+    @media(max-width:680px){.detail-nav{padding:14px 16px}.detail-hero{padding:52px 20px 38px}.detail-main{padding:34px 18px 52px}.agent-grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <nav class="detail-nav">
+    <a href="../index.html">秦锦成 · Jincheng Qin</a>
+    <div><a href="index.html" data-en>All projects</a><a href="index.html" data-zh hidden>全部项目</a> <button id="lang-toggle" type="button">中文</button></div>
+  </nav>
+  <header class="detail-hero">
+    <div class="detail-hero-inner">
+      <p class="detail-kicker">RESEARCH PLATFORM · DiCerAgent</p>
+      <h1>DiCerAgent: A Multi-Agent Research Platform for Dielectric Ceramics</h1>
+      <p class="lead" data-en>DiCerAgent is an LLM-driven multi-agent platform designed to connect literature-grounded knowledge retrieval, materials property prediction, inverse design, and scientific reasoning in a shared research workflow.</p>
+      <p class="lead" data-zh hidden>DiCerAgent 是面向介电陶瓷研究的大语言模型驱动多智能体平台，旨在通过统一工作流连接基于文献的知识检索、材料性能预测、逆向设计与科学推理。</p>
+      <div class="detail-actions">
+        <a class="primary" href="https://github.com/qinjcsiccas/DiCerAgent" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        <a href="../index.html#publications" data-en>Related publications</a><a href="../index.html#publications" data-zh hidden>相关论文</a>
+      </div>
+    </div>
+  </header>
+  <main class="detail-main">
+    <section>
+      <h2 data-en>Overview</h2><h2 data-zh hidden>项目简介</h2>
+      <p data-en>The platform combines specialized agents through shared interfaces and context-aware collaboration. Its intended workflow spans knowledge discovery, predictive modeling, candidate evaluation, and design-oriented reasoning for dielectric ceramics.</p>
+      <p data-zh hidden>平台通过共享接口和上下文感知的协作机制连接不同功能的智能体，覆盖介电陶瓷研究中的知识发现、性能建模、候选材料评估与面向设计的推理任务。</p>
+    </section>
+    <section>
+      <h2 data-en>Platform components</h2><h2 data-zh hidden>平台模块</h2>
+      <div class="agent-grid">
+        <article class="agent-card"><h3>HRKE</h3><p data-en>Knowledge retrieval and evidence-grounded literature exploration.</p><p data-zh hidden>知识检索与基于文献证据的探索。</p></article>
+        <article class="agent-card"><h3>MPC</h3><p data-en>Materials property prediction using data-driven models.</p><p data-zh hidden>基于数据驱动模型的材料性能预测。</p></article>
+        <article class="agent-card"><h3>ARMPP</h3><p data-en>Adaptive model selection and predictive workflow support.</p><p data-zh hidden>自适应模型选择与预测工作流支持。</p></article>
+        <article class="agent-card"><h3>IDO</h3><p data-en>Inverse design and computational candidate screening.</p><p data-zh hidden>逆向设计与计算候选筛选。</p></article>
+        <article class="agent-card"><h3>CADO</h3><p data-en>Design-oriented assistance for computational materials research.</p><p data-zh hidden>面向计算材料研究的设计辅助。</p></article>
+      </div>
+    </section>
+    <section>
+      <h2 data-en>Code and resources</h2><h2 data-zh hidden>代码与资源</h2>
+      <p data-en>The public repository provides the platform code, prompts, and representative resources. The repository README describes available materials and how to request additional data resources.</p>
+      <p data-zh hidden>公开代码仓库提供平台代码、提示词及代表性资源。可用材料和额外数据资源的获取方式以仓库 README 中的说明为准。</p>
+      <p style="margin-top:14px"><a href="https://github.com/qinjcsiccas/DiCerAgent" target="_blank" rel="noopener noreferrer">github.com/qinjcsiccas/DiCerAgent ↗</a></p>
+    </section>
+    <section>
+      <div class="detail-note">
+        <p data-en>This page is an overview of the research platform. Additional diagrams, demonstrations, and validated results can be added as they are prepared for public release.</p>
+        <p data-zh hidden>本页为研究平台简介。后续可在确认适合公开后，补充系统框架图、演示入口和经过核实的结果。</p>
+      </div>
+    </section>
+  </main>
+  <footer class="detail-footer">© 2026 Jincheng Qin · AI for Materials</footer>
+  <script>
+    const toggle=document.getElementById("lang-toggle");
+    let lang="en";
+    toggle.addEventListener("click",()=>{
+      lang=lang==="en"?"zh":"en";
+      document.documentElement.lang=lang==="zh"?"zh-CN":"en";
+      document.querySelectorAll("[data-zh]").forEach(el=>el.hidden=lang!=="zh");
+      document.querySelectorAll("[data-en]").forEach(el=>el.hidden=lang!=="en");
+      toggle.textContent=lang==="en"?"中文":"EN";
+    });
+  </script>
+</body>
+</html>
