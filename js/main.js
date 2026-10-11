@@ -527,6 +527,7 @@ function $(id) { return document.getElementById(id); }
 
 function toggleLang() {
   currentLang = currentLang === "zh" ? "en" : "zh";
+  document.documentElement.lang = currentLang === "zh" ? "zh-CN" : "en";
   renderAll();
 }
 
@@ -561,6 +562,7 @@ function renderHero() {
   $("hero-tagline").textContent = currentLang === "zh" ? "AI for Materials · 材料智能研究" : "AI for Materials";
   $("hero-projects-cta").textContent = currentLang === "zh" ? "代表性研究" : "Selected Projects";
   $("hero-pubs-cta").textContent = currentLang === "zh" ? "论文发表" : "Publications";
+  $("hero-update").textContent = currentLang === "zh" ? "最近更新：2026-10-11" : "Last updated: 2026-10-11";
 }
 
 /* About */
