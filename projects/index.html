@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research Projects | Jincheng Qin (秦锦成)</title>
+  <meta name="description" content="Selected research projects by Jincheng Qin in AI for Materials, scientific AI agents, materials property prediction, and data-driven materials design.">
+  <meta name="author" content="Jincheng Qin">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://qinjcsiccas.github.io/cv/projects/">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .project-page-nav{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:18px 24px;border-bottom:1px solid var(--border);background:#fff}
+    .project-page-nav a{color:var(--primary);text-decoration:none;font-weight:650}
+    .project-page-nav button{border:1px solid var(--border);background:#fff;border-radius:6px;padding:7px 12px;color:var(--primary);cursor:pointer}
+    .project-page-hero{padding:76px 24px 54px;background:radial-gradient(ellipse at 50% 0%,rgba(44,95,138,.08),transparent 58%),#fff;border-bottom:1px solid var(--border)}
+    .project-page-hero,.project-page-main{max-width:1080px;margin:0 auto}
+    .project-page-hero .kicker{font-size:.74rem;letter-spacing:.16em;font-weight:750;color:var(--primary-light);margin-bottom:12px}
+    .project-page-hero h1{font-size:clamp(2rem,4vw,2.8rem);color:var(--primary);line-height:1.2;margin-bottom:16px}
+    .project-page-hero p{max-width:740px;color:var(--text-light);font-size:1.04rem;line-height:1.85}
+    .project-page-main{padding:48px 24px 72px}
+    .project-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+    .project-detail-card{border:1px solid var(--border);border-radius:10px;background:#fff;padding:26px;scroll-margin-top:24px}
+    .project-detail-card .tag{font-size:.72rem;letter-spacing:.08em;color:var(--primary-light);font-weight:750;text-transform:uppercase}
+    .project-detail-card h2{font-size:1.2rem;line-height:1.5;color:var(--primary);margin:12px 0}
+    .project-detail-card p,.project-detail-card li{font-size:.92rem;line-height:1.8;color:var(--text-light)}
+    .project-detail-card ul{padding-left:20px;margin:12px 0}
+    .project-detail-card a{color:var(--primary);font-weight:650;text-decoration:none}
+    .project-detail-card a:hover{text-decoration:underline;text-underline-offset:4px}
+    .project-page-footer{text-align:center;padding:28px 16px;color:var(--text-muted);font-size:.8rem;border-top:1px solid var(--border)}
+    [hidden]{display:none!important}
+    @media(max-width:680px){.project-page-nav{padding:14px 16px}.project-page-hero{padding:54px 20px 38px}.project-page-main{padding:36px 18px 54px}.project-list{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <nav class="project-page-nav">
+    <a href="../index.html">秦锦成 · Jincheng Qin</a>
+    <div><a href="../index.html#publications" data-zh>论文与资源</a><a href="../index.html#publications" data-en hidden>Publications</a> <button id="lang-toggle" type="button">EN</button></div>
+  </nav>
+  <header class="project-page-hero">
+    <p class="kicker" data-zh>研究项目</p><p class="kicker" data-en hidden>RESEARCH PROJECTS</p>
+    <h1 data-zh>从材料数据到智能设计</h1><h1 data-en hidden>From Materials Data to Intelligent Design</h1>
+    <p data-zh>这里集中展示材料信息学、机器学习和科研智能体相关的代表性工作。页面将持续补充研究问题、技术路线、主要结果及对应论文、代码和数据资源。</p>
+    <p data-en hidden>This page brings together selected work in materials informatics, machine learning, and scientific AI agents. Research questions, methods, results, publications, code, and data resources will be added as each project is documented.</p>
+  </header>
+  <main class="project-page-main">
+    <div class="project-list">
+      <article class="project-detail-card">
+        <p class="tag">01 · <span data-zh>科学智能体</span><span data-en hidden>Scientific AI Agents</span></p>
+        <h2>DiCerAgent: A Multi-Agent Research Platform for Dielectric Ceramics</h2>
+        <p data-zh>面向介电陶瓷研究的 LLM 驱动多智能体平台，连接知识检索、性能预测、逆向设计与科学推理。项目页介绍系统模块、研究流程和公开资源。</p>
+        <p data-en hidden>An LLM-driven multi-agent platform for dielectric ceramics that connects knowledge retrieval, property prediction, inverse design, and scientific reasoning.</p>
+        <p><a href="diceragent.html" data-zh>查看项目详情 ↗</a><a href="diceragent.html" data-en hidden>View project ↗</a></p>
+      </article>
+      <article class="project-detail-card" id="materials-prediction">
+        <p class="tag">02 · <span data-zh>机器学习</span><span data-en hidden>Machine Learning</span></p>
+        <h2 data-zh>材料性能预测与构效关系</h2><h2 data-en hidden>Materials Property Prediction and Structure–Property Relationships</h2>
+        <p data-zh>结合材料描述符、机器学习模型与可解释分析，研究组成、结构特征与性能之间的关联。后续可在此补充具体体系、数据规模、模型结果与相关论文。</p>
+        <p data-en hidden>Uses materials descriptors, machine learning, and interpretable analysis to study links between composition, structural features, and performance. Specific systems, datasets, model results, and related papers can be documented here.</p>
+        <p><a href="../index.html#publications" data-zh>查看相关论文 ↗</a><a href="../index.html#publications" data-en hidden>Related publications ↗</a></p>
+      </article>
+      <article class="project-detail-card" id="materials-design">
+        <p class="tag">03 · <span data-zh>计算材料设计</span><span data-en hidden>Computational Materials Design</span></p>
+        <h2 data-zh>数据驱动的材料筛选与设计</h2><h2 data-en hidden>Data-Driven Materials Screening and Design</h2>
+        <p data-zh>通过数据驱动建模、计算筛选和多目标评估支持候选材料分析与性能优化。具体研究案例和资源将在确认后逐步补充。</p>
+        <p data-en hidden>Uses data-driven modeling, computational screening, and multi-objective evaluation to support candidate analysis and property optimization. Specific case studies and resources will be added as they are confirmed.</p>
+        <p><a href="../index.html#publications" data-zh>查看相关论文 ↗</a><a href="../index.html#publications" data-en hidden>Related publications ↗</a></p>
+      </article>
+    </div>
+  </main>
+  <footer class="project-page-footer">© 2026 Jincheng Qin · AI for Materials</footer>
+  <script>
+    const toggle=document.getElementById("lang-toggle");
+    let lang="zh";
+    toggle.addEventListener("click",()=>{
+      lang=lang==="zh"?"en":"zh";
+      document.documentElement.lang=lang==="zh"?"zh-CN":"en";
+      document.querySelectorAll("[data-zh]").forEach(el=>el.hidden=lang!=="zh");
+      document.querySelectorAll("[data-en]").forEach(el=>el.hidden=lang!=="en");
+      toggle.textContent=lang==="zh"?"EN":"中文";
+    });
+  </script>
+</body>
+</html>
