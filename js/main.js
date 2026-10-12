@@ -15,12 +15,12 @@ const DATA = {
     },
     hero: {
       name: "秦锦成",
-      title: "材料科学研究者",
+      title: "博士后（助理研究员）",
       affiliation: "中国科学院上海硅酸盐研究所"
     },
     about: {
       heading: "个人简介",
-      full: "秦锦成，中国科学院上海硅酸盐研究所材料科学研究者。2018年于中南大学粉末冶金研究院获工学学士学位，2023年于中国科学院大学获工学博士学位。研究兴趣涵盖 AI for Materials、材料信息学、机器学习辅助材料性能预测、材料数据库，以及大语言模型驱动的科研智能体与材料设计。担任 MGE Advances、AI for Science 期刊青年编委。",
+      full: "秦锦成，中国科学院上海硅酸盐研究所博士后（助理研究员）。2018年于中南大学粉末冶金研究院获工学学士学位，2023年于中国科学院大学获工学博士学位。研究兴趣涵盖 AI for Materials、材料信息学、机器学习辅助材料性能预测、材料数据库，以及大语言模型驱动的科研智能体与材料设计。担任 MGE Advances、AI for Science 期刊青年编委。",
       btn_more: "展开更多 ▼",
       btn_less: "收起 ▲"
     },
@@ -271,12 +271,12 @@ const DATA = {
     },
     hero: {
       name: "Jincheng Qin",
-      title: "Materials Scientist",
+      title: "Postdoctoral Researcher",
       affiliation: "Shanghai Institute of Ceramics, Chinese Academy of Sciences"
     },
     about: {
       heading: "About",
-      full: "Jincheng Qin is a materials scientist at the Shanghai Institute of Ceramics, Chinese Academy of Sciences. He received his B.E. from the Powder Metallurgy Research Institute, Central South University in 2018 and his Ph.D. from the University of Chinese Academy of Sciences in 2023. His research interests include AI for Materials, materials informatics, machine learning-assisted property prediction, materials databases, and large language model-driven scientific agents and materials design. He serves on the youth editorial boards of MGE Advances and AI for Science.",
+      full: "Jincheng Qin is a postdoctoral researcher at the Shanghai Institute of Ceramics, Chinese Academy of Sciences. He received his B.E. from the Powder Metallurgy Research Institute, Central South University in 2018 and his Ph.D. from the University of Chinese Academy of Sciences in 2023. His research interests include AI for Materials, materials informatics, machine learning-assisted property prediction, materials databases, and large language model-driven scientific agents and materials design. He serves on the youth editorial boards of MGE Advances and AI for Science.",
       btn_more: "Read More ▼",
       btn_less: "Show Less ▲"
     },
@@ -535,7 +535,6 @@ function renderAll() {
   renderNav();
   renderHero();
   renderAbout();
-  renderProjects();
   renderResearch();
   renderPublications();
   renderPatents();
@@ -548,7 +547,6 @@ function renderNav() {
   $("nav-name").textContent = DATA[currentLang].hero.name;
   $("nav-about").textContent = d.about;
   $("nav-research").textContent = d.research;
-  $("nav-projects").textContent = d.projects;
   $("nav-pub").textContent = d.publications;
   $("lang-btn").textContent = currentLang === "zh" ? "EN" : "中文";
 }
@@ -560,7 +558,7 @@ function renderHero() {
   $("hero-title").textContent = d.title;
   $("hero-affiliation").textContent = d.affiliation;
   $("hero-tagline").textContent = currentLang === "zh" ? "AI for Materials · 材料智能研究" : "AI for Materials";
-  $("hero-projects-cta").textContent = currentLang === "zh" ? "代表性研究" : "Selected Projects";
+  $("hero-projects-cta").textContent = currentLang === "zh" ? "代表性研究" : "Selected Research";
   $("hero-pubs-cta").textContent = currentLang === "zh" ? "论文发表" : "Publications";
   $("hero-update").textContent = currentLang === "zh" ? "最近更新：2026-10-11" : "Last updated: 2026-10-11";
 }
