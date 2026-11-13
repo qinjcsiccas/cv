@@ -20,7 +20,7 @@ const DATA = {
     },
     about: {
       heading: "个人简介",
-      full: "秦锦成，中国科学院上海硅酸盐研究所博士后（助理研究员）。2018年于中南大学粉末冶金研究院获工学学士学位，2023年于中国科学院大学获工学博士学位。以第一作者、共同第一作者或通讯作者身份发表论文{LEAD_AUTHOR_COUNT}篇，相关成果发表于 Nat. Electron.、Mater. Sci. Eng. R Rep.、npj Comput. Mater. 等期刊。研究兴趣涵盖 AI for Materials、材料信息学、机器学习辅助材料性能预测、材料数据库，以及大语言模型驱动的科研智能体与材料设计。担任 MGE Advances、AI for Science 期刊青年编委。",
+      full: "秦锦成，中国科学院上海硅酸盐研究所博士后（助理研究员）。2018年获中南大学工学学士学位，2023年获中国科学院大学工学博士学位。以第一/共同第一作者或通讯作者发表论文{LEAD_AUTHOR_COUNT}篇，相关成果发表于 Nat. Electron.、Mater. Sci. Eng. R Rep.、npj Comput. Mater. 等期刊。研究方向为 AI for Materials，重点关注数据驱动材料研究、材料数据库构建，以及大语言模型驱动的科研智能体与材料设计。现任 MGE Advances、AI for Science 青年编委。",
       btn_more: "展开更多 ▼",
       btn_less: "收起 ▲"
     },
@@ -276,7 +276,7 @@ const DATA = {
     },
     about: {
       heading: "About",
-      full: "Jincheng Qin is a postdoctoral researcher at the Shanghai Institute of Ceramics, Chinese Academy of Sciences. He received his B.E. from the Powder Metallurgy Research Institute, Central South University in 2018 and his Ph.D. from the University of Chinese Academy of Sciences in 2023. He has published {LEAD_AUTHOR_COUNT} papers as first, co-first, or corresponding author, including work in Nat. Electron., Mater. Sci. Eng. R Rep., and npj Comput. Mater. His research interests include AI for Materials, materials informatics, machine learning-assisted property prediction, materials databases, and large language model-driven scientific agents and materials design. He serves on the youth editorial boards of MGE Advances and AI for Science.",
+      full: "Jincheng Qin is a postdoctoral researcher (Assistant Professor) at the Shanghai Institute of Ceramics, Chinese Academy of Sciences. He received his B.E. from Central South University in 2018 and his Ph.D. from the University of Chinese Academy of Sciences in 2023. He has published {LEAD_AUTHOR_COUNT} papers as first, co-first, or corresponding author, including work in Nat. Electron., Mater. Sci. Eng. R Rep., and npj Comput. Mater. His research focuses on AI for Materials, particularly data-driven materials research, materials database development, and large language model-driven scientific agents and materials design. He currently serves on the youth editorial boards of MGE Advances and AI for Science.",
       btn_more: "Read More ▼",
       btn_less: "Show Less ▲"
     },
